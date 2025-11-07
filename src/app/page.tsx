@@ -30,7 +30,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://thestartswitch.com/og/tss-home-1200x630.jpg',
+        url: '/images/hero_desk.png',
         width: 1200,
         height: 630,
         alt: 'The Start Switch — book cover and brand artwork',
@@ -42,7 +42,7 @@ export const metadata = {
     title: 'The Start Switch | Make progress inevitable',
     description:
       'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
-    images: ['https://thestartswitch.com/og/tss-home-1200x630.jpg'],
+    images: ['/images/hero_desk.png'],
   },
   robots: {
     index: true,
@@ -98,7 +98,7 @@ const page = () => {
                     'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
                   primaryImageOfPage: {
                     '@type': 'ImageObject',
-                    url: 'https://thestartswitch.com/og/tss-home-1200x630.jpg',
+                    url: '/images/hero_desk.png',
                     width: 1200,
                     height: 630,
                   },
