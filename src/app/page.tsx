@@ -13,47 +13,47 @@ import Footer from './components/home/Footer'
 import Head from 'next/head'
 
 
-export const metadata = {
-  title: 'The Start Switch | Make progress inevitable',
-  description:
-    'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
-  alternates: {
-    canonical: 'https://thestartswitch.com',
-  },
-  openGraph: {
-    title: 'The Start Switch | Make progress inevitable',
-    description:
-      'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
-    url: 'https://thestartswitch.com',
-    siteName: 'The Start Switch',
-    locale: 'en_US',
-    type: 'website',
-    images: [
-      {
-        url: '/images/hero_desk.png',
-        width: 1200,
-        height: 630,
-        alt: 'The Start Switch — book cover and brand artwork',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'The Start Switch | Make progress inevitable',
-    description:
-      'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
-    images: ['/images/hero_desk.png'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-  },
-}
+// export const metadata = {
+//   title: 'The Start Switch | Make progress inevitable',
+//   description:
+//     'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
+//   alternates: {
+//     canonical: 'https://thestartswitch.com',
+//   },
+//   openGraph: {
+//     title: 'The Start Switch | Make progress inevitable',
+//     description:
+//       'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
+//     url: 'https://thestartswitch.com',
+//     siteName: 'The Start Switch',
+//     locale: 'en_US',
+//     type: 'website',
+//     images: [
+//       {
+//         url: '/images/hero_desk.png',
+//         width: 1200,
+//         height: 630,
+//         alt: 'The Start Switch — book cover and brand artwork',
+//       },
+//     ],
+//   },
+//   twitter: {
+//     card: 'summary_large_image',
+//     title: 'The Start Switch | Make progress inevitable',
+//     description:
+//       'A practical book and toolkit to help you stop overthinking, start small, and build momentum that lasts.',
+//     images: ['/images/hero_desk.png'],
+//   },
+//   robots: {
+//     index: true,
+//     follow: true,
+//   },
+// }
 
 const page = () => {
   return (
     <>
-    <Head>
+    {/* <Head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -107,7 +107,7 @@ const page = () => {
             }),
           }}
         />
-      </Head>
+      </Head> */}
 
       <HeroSedtion />
       <MotivationTalk />
